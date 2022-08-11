@@ -3,7 +3,7 @@ import java.awt.event.KeyEvent;
 
 import entities.RoboSoletrando;
 
-public class JavaBot2 {
+public class JavaBotTextos {
 
     public static void main(String[] args) throws Exception {
         System.out.println("==================BOT INICIADO==================");

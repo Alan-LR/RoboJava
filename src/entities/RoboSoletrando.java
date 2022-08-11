@@ -5,7 +5,7 @@ import java.awt.event.KeyEvent;
 
 public class RoboSoletrando {
 
-    private final short DELAY = 100;
+    // private final short DELAY = 100;
     private Robot robo;
 
     public RoboSoletrando(Robot pRobo) {
@@ -33,9 +33,9 @@ public class RoboSoletrando {
 
     private void escreverChar(Robot pRobo, int pCodigo) {
         pRobo.keyPress(pCodigo);
-        pRobo.delay(this.DELAY);
+        // pRobo.delay(this.DELAY);
         pRobo.keyRelease(pCodigo);
-        pRobo.delay(this.DELAY);
+        // pRobo.delay(this.DELAY);
     }
 
 }
